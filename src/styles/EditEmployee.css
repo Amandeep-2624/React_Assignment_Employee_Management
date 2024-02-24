@@ -1,0 +1,79 @@
+/* EditEmployee.css */
+
+/* Global styles */
+body {
+    background-color: #292929; /* Set background color for the body */
+    color: white; /* Set text color for the body */
+}
+
+/* Styles for the edit employee container */
+.edit-employee-container {
+    max-width: 600px; /* Set maximum width */
+    margin: 50px auto; /* Center the container horizontally with 50px top and bottom margin */
+    padding: 30px; /* Add padding */
+    background-color: #121212; /* Set background color */
+    border-radius: 8px; /* Add border radius */
+}
+
+/* Styles for the edit employee form */
+.edit-employee-form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange form elements vertically */
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-bottom: 1rem; /* Add margin bottom */
+}
+
+/* Styles for labels */
+label {
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Styles for input fields */
+input {
+    padding: 0.5rem; /* Add padding */
+    border-radius: 4px; /* Add border radius */
+    border: 1px solid #ccc; /* Add border */
+}
+
+/* Styles for error messages */
+.error {
+    color: red; /* Set color to red */
+    font-size: 0.8rem; /* Set font size */
+    margin-top: 0.5rem; /* Add margin top */
+}
+
+/* Styles for button group */
+.button-group {
+    margin-top: 1rem; /* Add margin top */
+}
+
+/* Styles for submit and cancel buttons */
+.submit-button,
+.cancel-button {
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    padding: 0.5rem 1rem; /* Add padding */
+    cursor: pointer; /* Add pointer cursor */
+    border-radius: 4px; /* Add border radius */
+    margin-right: 0.5rem; /* Add margin right */
+}
+
+/* Hover styles for submit and cancel buttons */
+.submit-button:hover,
+.cancel-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+/* Styles for cancel button */
+.cancel-button {
+    background-color: #dc3545; /* Set background color */
+}
+
+/* Hover styles for cancel button */
+.cancel-button:hover {
+    background-color: #c82333; /* Darker background color on hover */
+}

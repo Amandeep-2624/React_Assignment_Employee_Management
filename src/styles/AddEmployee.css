@@ -1,0 +1,65 @@
+/* Styles for the top container */
+.Top-container {
+    background-color: #292929; /* Set background color */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    color: white; /* Text color */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Styles for the add employee container */
+.add-employee-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+/* Styles for the add employee form */
+.add-employee-form {
+    width: 400px; /* Set form width */
+    background-color: #121212; /* Form background color */
+    padding: 2rem; /* Add padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Styles for form groups */
+.form-group {
+    margin-bottom: 1.5rem; /* Add margin bottom */
+}
+
+/* Styles for labels */
+label {
+    display: block; /* Display labels as block */
+    margin-bottom: 0.5rem; /* Add margin bottom */
+}
+
+/* Styles for input fields */
+input {
+    width: 100%; /* Set input width to 100% */
+    padding: 0.5rem; /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Add border */
+}
+
+/* Styles for error messages */
+.error-message {
+    color: red; /* Error message color */
+    font-size: 0.8rem; /* Error message font size */
+}
+
+/* Styles for submit button */
+.submit-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove border */
+    padding: 0.5rem 1rem; /* Add padding */
+    cursor: pointer; /* Add pointer cursor */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Hover styles for submit button */
+.submit-button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
